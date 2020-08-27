@@ -710,7 +710,7 @@ cd /opt/k8s/work
 
 cat > docker-daemon.json <<EOF
 {
-    "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn","https://hub-mirror.c.163.com"],
+    "registry-mirrors": ["https://7bezldxe.mirror.aliyuncs.com/","https://kw88y6eh.mirror.aliyuncs.com"],
     "insecure-registries": ["docker02:35000"],
     "max-concurrent-downloads": 20,
     "live-restore": true,
